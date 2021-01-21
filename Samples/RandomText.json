@@ -1,0 +1,13 @@
+{
+    "RandomText": {"$SetVar": {"$Name": "RandomText", "$Value": [
+	"Maecenas malesuada finibus augue quis luctus. Phasellus pulvinar viverra fringilla. Aliquam vehicula ullamcorper nunc sit amet sagittis. Nulla nunc mi, gravida eu augue nec, ultricies viverra dolor. In interdum urna.",
+	"Donec pretium nec dolor in auctor. Nunc aliquet pellentesque dui, et maximus tellus venenatis quis. Nullam scelerisque dapibus lorem ac scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam.",
+	"Pellentesque pellentesque dolor et consequat porta. Mauris nibh lectus, mattis vel convallis et, mollis in nunc. Aliquam vitae consequat leo. Sed augue nulla, mattis vel.",
+	"Nam a tempus enim, at sodales magna. Morbi eget scelerisque ipsum. Vivamus laoreet tristique nibh, sed sagittis ante egestas non. Aliquam tincidunt lorem ac elit dapibus, sit amet scelerisque lorem dapibus. Maecenas ipsum lorem, mollis imperdiet felis efficitur, tempus eleifend.",
+	"Vivamus tempor eros orci, nec porta tortor lacinia eget. Pellentesque sollicitudin, metus nec mattis porta, nulla est rhoncus ex, nec auctor ante lacus ac dolor. Nulla facilisi. Morbi congue semper orci ac molestie. Nam eget mauris cursus, pellentesque risus a.",
+	"Vestibulum maximus nibh vel arcu vehicula, in venenatis ex malesuada. Sed a molestie mi. Nulla sit amet dui eget tortor varius finibus. Morbi.",
+	"Integer ac ultrices est. Etiam lobortis, felis nec consequat euismod, dolor justo rhoncus velit, quis aliquet arcu mauris a felis. Cras magna erat, vulputate a eros sed, lacinia consequat velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent scelerisque turpis ut dolor interdum, sit amet pulvinar ante pulvinar. Nunc ac tincidunt diam. Donec nec hendrerit turpis. Ut.",
+	"Donec sagittis aliquet diam, in consectetur eros pharetra non. Sed venenatis, arcu luctus pretium facilisis, ligula diam consequat diam, a euismod lacus diam vitae nunc. Quisque vitae mi.",
+	"Sed sit amet justo bibendum, vulputate arcu sed, feugiat lorem. Donec ut cursus lacus, at bibendum lectus. Integer tincidunt molestie dui, tincidunt finibus libero rutrum ornare. Mauris finibus turpis at neque placerat, quis efficitur neque convallis. Quisque nulla magna, fringilla quis aliquam nec, ornare vel magna. Nulla facilisi. Nam laoreet.",
+	"Ut sed orci maximus sapien tempor viverra a eu lacus. Aenean a vehicula nunc. Etiam condimentum maximus augue, non venenatis orci pellentesque sit amet. Suspendisse potenti. Sed lobortis eget magna ut cursus. Mauris efficitur vel diam id."]}}
+}

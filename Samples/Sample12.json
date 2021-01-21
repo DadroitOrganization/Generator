@@ -1,0 +1,4 @@
+{
+    "Include": {"$Include": "Sample12Include.json"},
+    "Year": {"$GetVar": "RandomNumber"}
+}

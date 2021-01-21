@@ -1,0 +1,8 @@
+{
+    "List": {"$Loop": {"$From": 10000, "$To": 10009, "$Var": "I", "$Block": 
+			{
+                "X": {"$FormatNumber": {"$Template": "#,#","$Value": {"$GetVar": "I"}}}
+            }
+        }
+    }
+}

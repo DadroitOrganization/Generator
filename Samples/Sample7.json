@@ -1,0 +1,12 @@
+{
+    "List": {"$Loop": {"$From": 1, "$To": 10, "$Var": "I", "$Block": 
+					{"$Loop": {"$From": 0, "$To": 9, "$Var": "J", "$Block": 
+					{
+                        "X": {"$GetVar": "I"},
+                        "Y": {"$GetVar": "J"}
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "RandomNumber": {
+        "$SetVar": {
+            "$Name": "RandomNumber",
+            "$Value": {
+                "$Random": {
+                    "$Min": 1,
+                    "$Max": 100
+                }
+            }
+        }
+    },
+    "Year": {
+        "$GetVar": "RandomNumber"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "Name": "FirstName",
+    "Value": {"X": 1,"Y": 2},
+    "Books": {"$Random": ["B1", "B2", "B3"]},
+    "Age": {"$Random": {"$Min": 10,"$Max": 20}}
+}

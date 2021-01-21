@@ -1,0 +1,7 @@
+{
+    "List": {
+        "$Loop": {"$From": 0, "$To": 9, "$Var": "I", "$Block": 
+		{"X": {"$GetVar": "I"}}
+        }
+    }
+}

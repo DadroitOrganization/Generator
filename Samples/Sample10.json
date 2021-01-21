@@ -1,0 +1,13 @@
+{
+    "XX": {
+        "$SetVar": {
+            "$Name": "X",
+            "$Value": [1, 2]
+        }
+    },
+    "N": {
+        "$Random": {
+            "$GetVar": "X"
+        }
+    }
+}
