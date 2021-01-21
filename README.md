@@ -1,7 +1,7 @@
 # [Dadroit JSON Generator][DOMAIN]
 
 This tool helps in generating JSON data using a custom JSON based and functional template language.
-It is fast (100K records per second), and it is powerful with many features, including Variants (Numbers, Strings, Arrays), Loop, Template, and math functions like Random, Min, Mac and Count, and more.
+It is fast (100K objects per second), and it is powerful with many features, including Variants (Numbers, Strings, Arrays), Loop, Template, and math functions like Random, Min, Max, Count, and more. Moreover, it supports including templates into each other and reusing them.
 You can use it for JSON intensive use cases like testing applications and APIs. For example, we are using it for testing remarkable [Dadroit JSON Viewer][DOMAIN].
 
 ## Usage
