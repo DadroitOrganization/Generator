@@ -29,7 +29,7 @@ Save it to a file and then execute:
 
 ```console
 JSONGeneratorCLI Sample.json
-``` 
+```
 
 And you will get a new file containing:
 
@@ -47,6 +47,10 @@ And you will get a new file containing:
 
 There are some samples in the Samples directory, showing the features step by step to learn more.
 
+## Sample data
+
+Some small and big JSON example files are already generated and available. You can download the latest version from the [releases page](https://github.com/DadroitOrganization/Generator/releases).
+
 ## Supported Systems
 * Windows
 * Mac
@@ -58,5 +62,5 @@ There are some samples in the Samples directory, showing the features step by st
 ## Build Instructions
 * Use [Lazarus & FPC](https://www.lazarus-ide.org). Open the project and run.
 
-[//]: # (LINKS)
+[//]: # "LINKS"
 [DOMAIN]: https://dadroit.com/
