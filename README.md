@@ -1,8 +1,10 @@
 # [Dadroit JSON Generator][DOMAIN]
 
-This tool helps in generating JSON data using a custom JSON based and functional template language.
-It is fast (100K objects per second), and it is powerful with many features, including Variants (Numbers, Strings, Arrays), Loop, Template, and math functions like Random, Min, Max, Count, and more. Moreover, it supports including templates into each other and reusing them.
-You can use it for JSON intensive use cases like testing applications and APIs. For example, we are using it for testing remarkable [Dadroit JSON Viewer][DOMAIN].
+This tool helps generate JSON data using a custom JSON-based and functional template language. It is fast, capable of generating 100K objects per second, and powerful, with many features such as variants (numbers, strings, and arrays), loops, templates, and math functions (random, min, max, count, etc.). Additionally, it supports including templates within each other and reusing them.
+
+You can use it for JSON-intensive use cases, such as testing applications and APIs. For example, we use it to test our remarkable [Dadroit JSON Viewer](https://dadroit.com/).
+
+If you want to learn more, there is a [detailed blog post](https://dadroit.com/blog/json-generator-how-to-create-dummy-json-data/) about how to put this tool into use. Additionally, there are some samples in the Samples directory that describe the Generator's features in steps.
 
 ## Usage
 To use it, you need to have a template file like:
@@ -45,11 +47,7 @@ And you will get a new file containing:
 }
 ```
 
-There are some samples in the Samples directory, showing the features step by step to learn more.
-
-## Sample data
-
-Some small and big JSON example files are already generated and available. You can download the latest version from the [releases page](https://github.com/DadroitOrganization/Generator/releases).
+For more samples, check out the Samples directory.
 
 ## Supported Systems
 * Windows
@@ -57,7 +55,7 @@ Some small and big JSON example files are already generated and available. You c
 * Linux
 
 ## Third-Party
-* [Synopse mORMot framework](https://github.com/synopse/mORMot)
+* [Synopse mORMot framework](https://github.com/synopse/mORMot2)
 
 ## Build Instructions
 * Use [Lazarus & FPC](https://www.lazarus-ide.org). Open the project and run.

@@ -11,7 +11,10 @@ procedure GenerateJSON(const ATemplate: String; ACurrentPath: TFileName; AStream
 
 implementation
 
-uses Variants, SynCommons, Math, FileUtil;
+uses
+  Variants, Math, FileUtil,
+  mormot.core.base, mormot.core.text, mormot.core.data, mormot.core.rtti,
+  mormot.core.json, mormot.core.variants, mormot.core.os;
 
 type
   TMethodKind = (mkNone, mkUnknown, mkInclude, mkRandom, mkLoop, mkSetVar, mkGetVar, mkFormat, mkFormatNumber);
@@ -22,14 +25,14 @@ var
 type
   { TJSONGenerator }
 
-  TJSONGenerator = class(TTextWriter)
+  TJSONGenerator = class(TJsonWriter)
   private
     CurrentPath: TFileName;
     Escape: TTextWriterKind;
     LocalVars: array of record
       Name: RawUTF8;
       Value: Variant;
-    end;
+      end;
     function GetMethodKind(const AName: RawUTF8): TMethodKind;
     function AddLocalVar(const AName: RawUTF8): Integer;
     procedure RemoveLocalVar(const AIndex: Integer);
@@ -418,7 +421,7 @@ procedure TJSONGenerator.DoFormat(const AValue: TDocVariantData);
 var
   Vr: PDocVariantData;
   Tmp: RawUTF8;
-  F: AnsiChar;
+  F: Ansichar;
   AC, TI: Integer;
 begin
   with AValue do
@@ -459,9 +462,9 @@ begin
       Val := O['$Value'];
       Tmp := VarToStr(GetValue(Value['$Template']));
       case Val^.Kind of
-        dvObject: AddNoJSONEscapeString(FormatFloat(Tmp, VariantToDoubleDef(GetValue(Value['$Value']), 0)));
+        dvObject: AddJsonString(FormatFloat(Tmp, VariantToDoubleDef(GetValue(Value['$Value']), 0)));
         dvUndefined: if GetAsDouble('$Value', V) then
-            AddNoJSONEscapeString(FormatFloat(Tmp, V));
+            AddJsonString(FormatFloat(Tmp, V));
       end;
     end;
 end;

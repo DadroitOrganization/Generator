@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Release"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="JSONGeneratorCLI.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="52"/>
+        <CursorPos X="22" Y="93"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="jsongenerator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="JSONGenerator"/>
+        <UsageCount Value="21"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\Development\Components\mORMot2\src\core\mormot.core.os.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1083"/>
+        <CursorPos X="17" Y="1185"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\Development\Laz32Git\fpcsrc\packages\fcl-base\src\fileinfo.pp"/>
+        <UnitName Value="FileInfo"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="79"/>
+        <CursorPos X="3" Y="91"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="15" HistoryIndex="14">
+      <Position1>
+        <Filename Value="JSONGeneratorCLI.pas"/>
+        <Caret Line="77" Column="15" TopLine="61"/>
+      </Position1>
+      <Position2>
+        <Filename Value="JSONGeneratorCLI.pas"/>
+        <Caret Line="75" Column="7" TopLine="64"/>
+      </Position2>
+      <Position3>
+        <Filename Value="JSONGeneratorCLI.pas"/>
+        <Caret Line="74" Column="19" TopLine="62"/>
+      </Position3>
+      <Position4>
+        <Filename Value="JSONGeneratorCLI.pas"/>
+        <Caret Line="63" Column="8" TopLine="59"/>
+      </Position4>
+      <Position5>
+        <Filename Value="C:\Development\Components\mORMot2\src\core\mormot.core.os.pas"/>
+        <Caret Line="1165" Column="32" TopLine="1150"/>
+      </Position5>
+      <Position6>
+        <Filename Value="C:\Development\Components\mORMot2\src\core\mormot.core.os.pas"/>
+        <Caret Line="7197" Column="3" TopLine="7193"/>
+      </Position6>
+      <Position7>
+        <Filename Value="C:\Development\Components\mORMot2\src\core\mormot.core.os.pas"/>
+        <Caret Line="1097" Column="20" TopLine="1084"/>
+      </Position7>
+      <Position8>
+        <Filename Value="C:\Development\Components\mORMot2\src\core\mormot.core.os.pas"/>
+        <Caret Line="7134" Column="3" TopLine="7132"/>
+      </Position8>
+      <Position9>
+        <Filename Value="C:\Development\Components\mORMot2\src\core\mormot.core.os.pas"/>
+        <Caret Line="1151" Column="15" TopLine="1139"/>
+      </Position9>
+      <Position10>
+        <Filename Value="C:\Development\Components\mORMot2\src\core\mormot.core.os.pas"/>
+        <Caret Line="7156" Column="3" TopLine="7152"/>
+      </Position10>
+      <Position11>
+        <Filename Value="C:\Development\Components\mORMot2\src\core\mormot.core.os.pas"/>
+        <Caret Line="1138" Column="14" TopLine="1125"/>
+      </Position11>
+      <Position12>
+        <Filename Value="C:\Development\Components\mORMot2\src\core\mormot.core.os.pas"/>
+        <Caret Line="7118" Column="9" TopLine="7106"/>
+      </Position12>
+      <Position13>
+        <Filename Value="JSONGeneratorCLI.pas"/>
+        <Caret Line="64" Column="5" TopLine="52"/>
+      </Position13>
+      <Position14>
+        <Filename Value="JSONGeneratorCLI.pas"/>
+        <Caret Line="71" Column="42" TopLine="55"/>
+      </Position14>
+      <Position15>
+        <Filename Value="JSONGeneratorCLI.pas"/>
+        <Caret Line="63" Column="30" TopLine="55"/>
+      </Position15>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

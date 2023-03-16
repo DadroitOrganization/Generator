@@ -2,14 +2,14 @@ program JSONGeneratorCLI;
 
 {$mode objfpc}{$H+}
 
-uses
- {$IFDEF UNIX}
-  cthreads,
- {$ENDIF}
+uses {$IFDEF UNIX}
+  cthreads, {$ENDIF}
   Classes,
   SysUtils,
+  FileInfo,
   CustApp,
-  SynCommons,
+  mormot.core.os,
+  mormot.core.base,
   JSONGenerator;
 
 type
@@ -28,7 +28,7 @@ type
 
   procedure TJSONGeneratorCLI.DoRun;
   var
-    OutName: String;
+    OutName: string;
     OutStr: TFileStream;
   begin
     if HasOption('h', 'help') or (ParamCount < 1) then
@@ -59,15 +59,18 @@ type
 
   procedure TJSONGeneratorCLI.DoHelp;
   var
-    Message: String;
+    Message: string;
+    version: TProgramVersion;
   begin
     Message := ExeVersion.ProgramName;
     WriteLn(#13#10 + Message);
     Message := StringOfChar('-', Length(Message));
     WriteLn(Message);
-    WriteLn(ExeVersion.Version.Detailed);
+    FileInfo.GetProgramVersion(version);
+    WriteLn(Format('%d.%d.%d.%d', [version.Major, version.Minor,
+      version.Revision, version.Build]));
     WriteLn;
-    WriteLn(Format('usage: %s template.json output.json', [ExeVersion.ProgramName]));
+    WriteLn(Format('Usage: %s template.json output.json', [ExeVersion.ProgramName]));
     WriteLn;
   end;
 
@@ -77,12 +80,12 @@ type
     StopOnException := True;
   end;
 
-  function GetVendorName: String;
+  function GetVendorName: string;
   begin
     Result := 'Dadroit';
   end;
 
-  function GetApplicationName: String;
+  function GetApplicationName: string;
   begin
     Result := 'JSONGenerator';
   end;
@@ -97,7 +100,7 @@ begin
   OnGetVendorName := @GetVendorName;
   Application := TJSONGeneratorCLI.Create(nil);
   Application.Name := ApplicationName;
-  Application.Title := VendorName + ' ' + ApplicationName;
+  Application.Title := 'JSON Generator';
   Application.Run;
   Application.Free;
 end.

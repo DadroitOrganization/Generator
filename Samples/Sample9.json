@@ -1,9 +1,9 @@
 {
     "Hi": {
         "$Loop": {"$From": 1, "$To": 10, "$Block": 
-			{"Name": {"$Format": {
+			{"Message": {"$Format": {
                         "$Template": {"$Random": ["Hi ? and ?", "Hello ? or ?"]},
-                        "$Value": [{"$Random": ["A", "B", "C", "D", "E"]}, {"$Random": ["J", "K"]}]}}
+                        "$Value": [{"$Random": ["Jim", "Jack", "Jake", "Jamie"]}, {"$Random": ["Julia", "Jessica"]}]}}
             }
         }
     }
