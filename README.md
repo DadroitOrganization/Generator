@@ -4,7 +4,7 @@ This tool helps generate JSON data using a custom JSON-based and functional temp
 
 You can use it for JSON-intensive use cases, such as testing applications and APIs. For example, we use it to test our remarkable [Dadroit JSON Viewer](https://dadroit.com/).
 
-If you want to learn more, there is a [detailed blog post](https://dadroit.com/blog/json-generator-how-to-create-dummy-json-data/) about how to put this tool into use. Additionally, there are some samples in the Samples directory that describe the Generator's features in steps.
+If you want to learn more, there is a [detailed blog post](https://dadroit.com/blog/json-generator-how-to-create-dummy-json-data/) about how to put this tool into use. Additionally, there are some samples in the [Samples](https://github.com/DadroitOrganization/Generator/tree/main/Samples) directory that describe the Generator's features in steps.
 
 ## Usage
 To use it, you need to have a template file like:
@@ -47,7 +47,7 @@ And you will get a new file containing:
 }
 ```
 
-For more samples, check out the Samples directory.
+For more samples, check out the [Samples](https://github.com/DadroitOrganization/Generator/tree/main/Samples) directory.
 
 ## Supported Systems
 * Windows
