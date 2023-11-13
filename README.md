@@ -38,7 +38,7 @@ Your new file should be like this:
 
 Discover additional samples in the [GitHub samples directory](https://github.com/DadroitOrganization/Generator/tree/main/Samples).
 
-For a comprehensive guide on how to use the JSON generator, visit [https://dadroit.com/blog/json-generator/.](https://dadroit.com/blog/json-generator/.%22)
+For a comprehensive guide on how to use the JSON generator, visit [https://dadroit.com/blog/json-generator/](https://dadroit.com/blog/json-generator/)
 
 ## **VSCode Extension Available**
 
