@@ -12,7 +12,7 @@ procedure GenerateJSON(const ATemplate: String; ACurrentPath: TFileName; AStream
 implementation
 
 uses
-  Variants, Math, FileUtil,
+  Variants, Math,
   mormot.core.base, mormot.core.text, mormot.core.data, mormot.core.rtti,
   mormot.core.json, mormot.core.variants, mormot.core.os;
 
