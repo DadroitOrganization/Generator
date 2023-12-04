@@ -1,0 +1,45 @@
+{
+  "name": "@dadroit/json-generator",
+  "version": "1.0.0",
+  "homepage": "https://dadroit.com/",
+  "description": "Generate nested sample JSON data using custom templates",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DadroitOrganization/Generator.git",
+    "issues": "https://github.com/DadroitOrganization/Generator/issues"
+  },
+  "keywords": [
+    "JSON",
+    "random",
+    "generator",
+    "sample",
+    "mock data",
+    "template",
+    "make"
+  ],
+  "author": "Dadroit hi@dadroit.com",
+  "license": "Apache-2.0",
+  "main": "wrapper-script.js",
+  "bin": {
+    "json-generator": "./wrapper-script.js"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "ia32"
+  ],
+  "dependencies": {
+    "jszip": "^3.10.1"
+  }
+}
