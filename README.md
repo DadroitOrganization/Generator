@@ -38,11 +38,11 @@ Your new file should be like this:
 
 Discover additional samples in the [GitHub samples directory](https://github.com/DadroitOrganization/Generator/tree/main/Samples).
 
-For a comprehensive guide on how to use the JSON generator, visit [https://dadroit.com/blog/json-generator/](https://dadroit.com/blog/json-generator/)
+For a comprehensive guide on how to use the JSON generator, visit [https://dadroit.com/blog/json-generator/](https://dadroit.com/blog/json-generator/#dadroit-json-generator-a-tool-for-generating-customizable-mock-data).
 
 ## **VSCode Extension Available**
 
-We’ve recently published a [VSCode Extension](https://github.com/DadroitOrganization/JSONGeneratorExtension.git), a tool crafted to allow developers to utilize the functionalities of the Dadroit JSON Generator directly within their development environment. Simplify your JSON data generation process without leaving your code editor and get additional insights and usage details in our dedicated [blog post](https://dadroit.com/blog/json-generator/).
+We’ve recently published a [VSCode Extension](https://github.com/DadroitOrganization/JSONGeneratorExtension.git), a tool crafted to allow developers to utilize the functionalities of the Dadroit JSON Generator directly within their development environment. Simplify your JSON data generation process without leaving your code editor and get additional insights and usage details in our dedicated [blog post](https://dadroit.com/blog/json-generator-vscode-extension/).
 
 ## **Supported Systems**
 
