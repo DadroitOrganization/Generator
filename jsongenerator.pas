@@ -14,7 +14,7 @@ implementation
 uses
   Variants, Math,
   mormot.core.base, mormot.core.text, mormot.core.data, mormot.core.rtti,
-  mormot.core.json, mormot.core.variants, mormot.core.os;
+  mormot.core.json, mormot.core.variants, mormot.core.os, mormot.core.unicode;
 
 type
   TMethodKind = (mkNone, mkUnknown, mkInclude, mkRandom, mkLoop, mkSetVar, mkGetVar, mkFormat, mkFormatNumber);

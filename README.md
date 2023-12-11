@@ -12,10 +12,10 @@ Save your template as `sample.json`, for instance, this can be a sample template
 
 ```json
 {
-    "Name": "$FirstName",
-    "Value": {"X": 1,"Y": 2},
-    "Books": {"$Random": ["B1", "B2", "B3"]},
-    "Age": {"$Random": {"$Min": 10,"$Max": 20}}
+  "Name": "$FirstName",
+  "Value": {"X": 1,"Y": 2},
+  "Books": {"$Random": ["B1", "B2", "B3"]},
+  "Age": {"$Random": {"$Min": 10,"$Max": 20}}
 }
 ```
 
@@ -29,10 +29,10 @@ Your new file should be like this:
 
 ```json
 {
-    "Name": "John",
-    "Value": {"X": 1,"Y": 2},
-    "Books": "B3",
-    "Age": 13
+  "Name": "John",
+  "Value": {"X": 1,"Y": 2},
+  "Books": "B3",
+  "Age": 13
 }
 ```
 
@@ -62,7 +62,7 @@ We’ve recently published a [VSCode Extension](https://github.com/DadroitOrgani
 
 ## **Contributing**
 
-We warmly invite you to contribute to the Dadroit JSON Generator. Whether it’s improving the code, adding templates, or enhancing documentation - every bit helps! 
+We warmly invite you to contribute to the Dadroit JSON Generator. Whether it’s improving the code, adding templates, or enhancing documentation - every bit helps!
 
 ## **License**
 
